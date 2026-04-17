@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/auth.py
+# hypothesis_version: 6.151.12
+
+[200, 201, 400, 401, 403, '/login', '/me', '/refresh', '/register', 'access_token', 'active', 'nickname', 'password', 'phone', 'refresh_token', 'user', '手机号已注册', '手机号或密码错误', '账号已被禁用']

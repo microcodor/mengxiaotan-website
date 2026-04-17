@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/scheduler.py
+# hypothesis_version: 6.151.12
+
+[400, 403, 500, '/jobs', '/jobs/<job_id>/pause', '/run-all', '/run-single', '/status', 'admin', 'editor', 'enabled', 'jobs', 'jobs_count', 'message', 'running', 'spider_name', 'total', '定时任务调度器未启用', '定时任务调度器正在运行', '已开始运行所有爬虫，请查看日志', '请提供爬虫名称', '需要管理员权限']

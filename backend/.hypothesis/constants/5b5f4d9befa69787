@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/users.py
+# hypothesis_version: 6.151.12
+
+[200, '/favorites', '/history', '/profile', 'avatar', 'company', 'created_at', 'id', 'message', 'name', 'nickname', 'phone', 'position', 'role', 'short_name', 'status', '资料更新成功']

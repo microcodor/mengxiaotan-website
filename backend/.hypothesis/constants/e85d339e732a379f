@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/services/permission_controller.py
+# hypothesis_version: 6.151.12
+
+['active', 'ai_brief', 'ai_decision', 'allowed', 'dashboard_basic', 'dashboard_full', 'dashboard_trend', 'free', 'is_expired', 'keyword_custom', 'message', 'premium', 'push_email', 'push_sms', 'required_level', 'standard', 'subscription_level', '您当前没有订阅，仅可访问免费版功能', '您的订阅已过期，请续费以继续使用高级功能', '权限验证通过', '标准', '订阅套餐信息异常', '高级']

@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/services/push_service.py
+# hypothesis_version: 6.151.12
+
+[300, 7200, '---\n\n', 'PushService', 'WECHAT_WORK_AGENTID', 'WECHAT_WORK_CORPID', 'WeChatWork', 'access_token', 'active', 'agentid', 'ai_suggestion', 'article_id', 'btntxt', 'coal', 'content', 'corpid', 'corpsecret', 'description', 'enterprise_wechat', 'errcode', 'error', 'failed', 'markdown', 'message', 'message_type', 'msgtype', 'ndrc', 'new_energy', 'power', 'results', 'sent', 'success', 'text', 'textcard', 'title', 'total_users', 'touser', 'url', 'wechat_work', '⚡ 电力行业', '⚫ 煤炭行业', '企业微信推送服务已注册', '企业微信配置不完整，推送服务未启用', '文章不存在', '文章推送完成', '查看详情', '没有活跃订阅用户', '简报推送完成', '蒙小碳·每日简报', '蒙小碳·能源站', '🌱 新能源', '📋 发改委动态']

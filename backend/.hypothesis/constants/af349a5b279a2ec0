@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/briefs.py
+# hypothesis_version: 6.151.12
+
+[400, 403, 404, 500, '%Y-%m-%d', '%Y-%m-%d %H:%M:%S', '/<string:brief_date>', '/generate', '/latest', '/preview', 'AI生成失败', 'GET', 'POST', 'active', 'admin', 'ai_suggestion', 'article_count', 'brief_date', 'brief_id', 'briefs', 'content', 'data', 'date', 'end_date', 'error', 'generated_at', 'id', 'message', 'page', 'pages', 'pagination', 'per_page', 'push_result', 'start_date', 'status', 'success', 'total', '日期格式错误，应为YYYY-MM-DD', '暂无简报', '权限不足', '简报不存在', '简报生成失败，请稍后重试', '简报生成成功', '简报预览生成成功', '获取最新简报失败', '获取简报列表失败', '获取简报失败', '高级版']

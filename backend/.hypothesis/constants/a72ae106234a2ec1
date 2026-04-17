@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/articles.py
+# hypothesis_version: 6.151.12
+
+[200, 400, '/', '/<int:article_id>', '/carousel', '/daily-brief', '/top', 'ai_suggestion', 'brief_date', 'category', 'category_name', 'content', 'cover_image', 'created_at', 'end_date', 'generated_at', 'id', 'is_carousel', 'is_top', 'items', 'keyword', 'like_count', 'message', 'page', 'pages', 'per_page', 'published_at', 'query', 'source', 'source_url', 'start_date', 'summary', 'tags', 'title', 'total', 'updated_at', 'view_count', '一句话建议', '取消收藏成功', '已收藏该文章', '收藏成功']

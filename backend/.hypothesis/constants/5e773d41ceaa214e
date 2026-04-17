@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/categories.py
+# hypothesis_version: 6.151.12
+
+[201, 400, 403, '/', '/<int:category_id>', '/stats', 'admin', 'article_count', 'code', 'created_at', 'description', 'editor', 'false', 'icon', 'id', 'include_inactive', 'is_active', 'items', 'message', 'name', 'pending', 'reviewed', 'sort_order', 'total', 'true', 'updated_at', '分类代码和名称不能为空', '分类代码已存在', '分类创建成功', '分类删除成功', '分类更新成功', '需要管理员权限']

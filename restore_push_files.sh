@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "正在恢复IM推送集成文件..."
+
+# 提示：由于文件较多，建议手动从文档中复制代码
+echo ""
+echo "需要恢复的文件列表："
+echo "1. backend/app/services/dingtalk_push_service.py"
+echo "2. backend/app/services/feishu_push_service.py"
+echo "3. backend/app/api/push_settings.py"
+echo "4. frontend/src/pages/admin/PushManagement.tsx"
+echo ""
+echo "这些文件的完整代码在以下文档中："
+echo "- IM_PUSH_INTEGRATION_COMPLETE.md"
+echo "- 或者查看之前的对话记录"
+echo ""
+echo "已恢复的文件："
+echo "✓ backend/app/services/enterprise_wechat_push_service.py"
+echo "✓ frontend/src/pages/PushSettings.tsx (未被revert)"
+echo "✓ frontend/src/pages/admin/PushManagement.tsx (需要检查)"
+echo ""
+echo "还需要更新的文件："
+echo "- backend/app/services/multi_channel_pusher.py (需要更新)"
+echo "- backend/app/api/__init__.py (需要注册push_settings蓝图)"
+echo "- backend/app/__init__.py (需要注册push_settings蓝图)"
+echo "- backend/.env.example (需要添加IM配置)"
+echo "- frontend/src/App.tsx (需要添加管理员路由)"
+echo "- frontend/src/components/AdminLayout.tsx (需要添加导航)"

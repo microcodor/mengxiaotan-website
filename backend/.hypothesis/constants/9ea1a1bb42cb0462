@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/services/monitor_service.py
+# hypothesis_version: 6.151.12
+
+[100, 587, ', ', 'ALERT_EMAILS', 'From', 'SELECT 1', 'SMTP_PASSWORD', 'SMTP_PORT', 'SMTP_SERVER', 'SMTP_USER', 'Subject', 'To', 'active', 'admin', 'articles', 'checked_at', 'crawler', 'db_healthy', 'error', 'error_msg', 'error_sources', 'failed', 'failed_at', 'failed_runs', 'is_healthy', 'name', 'period_days', 'plain', 'recent_runs', 'spider_name', 'spiders', 'success', 'success_rate', 'success_runs', 'text', 'total', 'total_articles', 'total_runs', 'utf-8', 'wechat_work', '企业微信服务未配置', '没有找到管理员用户', '邮件配置不完整，跳过邮件告警']

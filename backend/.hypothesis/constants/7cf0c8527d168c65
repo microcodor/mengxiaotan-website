@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/models.py
+# hypothesis_version: 6.151.12
+
+[100, 200, 255, 500, 86400, 'Company', 'CompanyBusiness', 'Order', 'P1', 'Subscription', 'SubscriptionPlan', 'User', 'UserFavorite', 'UserHistory', 'active', 'all, delete-orphan', 'announcements', 'article_id', 'articles', 'articles.id', 'broadcast_logs', 'broadcast_tasks', 'broadcast_tasks.id', 'categories', 'companies', 'companies.id', 'company', 'company_businesses', 'crawl_logs', 'created_companies', 'daily_briefs', 'dynamic', 'employees', 'keywords', 'operation_logs', 'orders', 'orders.id', 'pending', 'refund_applications', 'sources', 'sources.id', 'subscription_plans', 'subscriptions', 'user', 'user_favorites', 'user_history', 'user_id', 'users', 'users.id']

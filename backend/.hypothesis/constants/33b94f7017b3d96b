@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/services/ai_brief_generator.py
+# hypothesis_version: 6.151.12
+
+[0.7, 0.95, 200, 1000, 2048, '\n请查看详细文章列表获取更多信息。', '%Y-%m-%d %H:%M', 'AI生成失败', 'Authorization', 'Content-Type', 'MiniMax API调用超时', 'MiniMax API配置不完整', 'abab6.5-chat', 'active', 'ai_suggestion', 'ai_summary', 'application/json', 'article_count', 'brief_id', 'choices', 'coal', 'content', 'created', 'error', 'existing', 'failed', 'generated_at', 'markdown', 'message', 'messages', 'model', 'ndrc', 'new_energy', 'power', 'premium', 'published_at', 'role', 'sent', 'source', 'standard', 'status', 'summary', 'temperature', 'title', 'tokens_to_generate', 'top_p', 'url', 'user', 'wechat_work', '决策建议', '发改委动态', '已达到最大重试次数，使用默认简报', '新能源', '标准版', '没有符合条件的订阅用户', '煤炭行业', '电力行业', '简报不存在', '蒙小碳·每日简报', '高级版', '：:、，,。. \t\n']

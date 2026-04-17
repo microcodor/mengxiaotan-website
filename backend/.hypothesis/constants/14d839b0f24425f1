@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/monitor.py
+# hypothesis_version: 6.151.12
+
+[100, 400, 403, 500, '/failures', '/health', '/statistics', '/test-alert', 'admin', 'days', 'editor', 'failures', 'limit', 'message', 'test_spider', 'total', '测试告警已发送，请检查企业微信和邮箱', '统计天数必须在1-90之间', '返回数量必须在1-100之间', '这是一条测试告警消息', '需要管理员权限']

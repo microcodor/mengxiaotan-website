@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/__init__.py
+# hypothesis_version: 6.151.12
+
+[6380, 'CORS_ORIGINS', 'FLASK_ENV', 'UPLOAD_FOLDER', 'development', 'localhost']

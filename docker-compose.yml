@@ -1,0 +1,111 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mengxiaotan_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mengxiaotan
+      TZ: Asia/Shanghai
+    ports:
+      - "3307:3306"  # 使用 3307 端口避免冲突
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    command: --default-authentication-plugin=mysql_native_password --default-time-zone='+08:00' --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-ppassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: mengxiaotan_redis
+    environment:
+      TZ: Asia/Shanghai
+    ports:
+      - "6380:6379"  # 使用6380端口避免与本地Redis冲突
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mengxiaotan_backend
+    environment:
+      DATABASE_URL: mysql+pymysql://root:password@mysql:3306/mengxiaotan?charset=utf8mb4
+      REDIS_URL: redis://redis:6379/0
+      FLASK_ENV: production
+      SECRET_KEY: ${SECRET_KEY:-production-secret-key-change-me}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:-jwt-secret-key-change-me}
+      MINIMAX_API_KEY: ${MINIMAX_API_KEY:-}
+      MINIMAX_GROUP_ID: ${MINIMAX_GROUP_ID:-}
+      WECHAT_WORK_CORPID: ${WECHAT_WORK_CORPID:-}
+      WECHAT_WORK_CORPSECRET: ${WECHAT_WORK_CORPSECRET:-}
+      WECHAT_WORK_AGENTID: ${WECHAT_WORK_AGENTID:-}
+      ENABLE_SCHEDULER: ${ENABLE_SCHEDULER:-true}
+      PORT: 5000
+    ports:
+      - "5001:5000"  # 映射到5001端口
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:5001}
+    container_name: mengxiaotan_frontend
+    ports:
+      - "5173:80"  # 映射到5173端口保持一致
+    depends_on:
+      - backend
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # 爬虫服务（可选，按需启动）
+  crawler:
+    build:
+      context: ./crawler
+      dockerfile: Dockerfile
+    container_name: mengxiaotan_crawler
+    environment:
+      DATABASE_URL: mysql+pymysql://root:password@mysql:3306/mengxiaotan?charset=utf8mb4
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./crawler:/app
+    restart: "no"  # 不自动重启，由定时任务触发
+    profiles:
+      - crawler  # 使用 profile，默认不启动
+
+volumes:
+  mysql_data:
+  redis_data:

@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/scheduler.py
+# hypothesis_version: 6.151.12
+
+[300, 500, 600, '\n当前定时任务列表:', '=', 'Asia/Shanghai', 'ENABLE_SCHEDULER', 'brief_id', 'chinapower', 'cnenergy', 'coal', 'coalesce', 'crawl', 'crawler', 'daily_brief', 'evening_crawl', 'failed', 'id', 'max_instances', 'misfire_grace_time', 'morning_crawl', 'name', 'ndrc', 'nea', 'newenergy', 'next_run_time', 'noon_crawl', 'peopledaily', 'power', 'scrapy', 'success', 'trigger', 'xinhua_real', '✓ 定时任务调度器启动成功', '✓ 定时任务调度器已关闭', '初始化定时任务调度器...', '午间爬虫任务', '早间爬虫任务', '晚间爬虫任务', '正在关闭定时任务调度器...', '每日AI简报生成', '简报生成失败', '调度器已经初始化，跳过']

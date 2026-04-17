@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/config.py
+# hypothesis_version: 6.151.12
+
+[587, 1024, 5001, ',', '/', '/swagger-ui', '3.0.2', 'ALERT_EMAILS', 'Asia/Shanghai', 'BAIDU_OCR_API_KEY', 'BAIDU_OCR_SECRET_KEY', 'CORS_ORIGINS', 'DATABASE_URL', 'ENABLE_SCHEDULER', 'JWT_SECRET_KEY', 'MAX_CONTENT_LENGTH', 'MINIMAX_API_KEY', 'MINIMAX_GROUP_ID', 'OCR_PROVIDER', 'PER_PAGE', 'PORT', 'REDIS_URL', 'SECRET_KEY', 'SMTP_PASSWORD', 'SMTP_PORT', 'SMTP_SERVER', 'SMTP_USER', 'UPLOAD_FOLDER', 'WECHAT_WORK_AGENTID', 'WECHAT_WORK_CORPID', 'baidu', 'default', 'development', 'production', 'true', 'uploads', 'v1', '蒙小碳能源站 API']

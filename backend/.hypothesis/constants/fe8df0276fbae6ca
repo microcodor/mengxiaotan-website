@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/services/keyword_push_engine.py
+# hypothesis_version: 6.151.12
+
+[0.0, 1.0, 1.5, 2.0, 3.0, 100, '# 📰 热门文章推送\n\n', '---\n\n', '...', 'active', 'markdown', 'matched_count', 'no_articles', 'no_matches', 'no_push_service', 'push_failed', 'pushed_count', 'status', 'success', 'wechat_work', '蒙小碳·关键词推送']

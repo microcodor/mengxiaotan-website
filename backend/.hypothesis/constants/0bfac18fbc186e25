@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/services/payment_proof_manager.py
+# hypothesis_version: 6.151.12
+
+[0.0, 0.8, 1024, '%Y', '%m', '([0-9]{20,30})', '(\\d+\\.?\\d*)\\s*元', '-', '.', '/', 'BAIDU_OCR_API_KEY', 'BAIDU_OCR_SECRET_KEY', 'OCR_PROVIDER', 'UPLOAD_FOLDER', 'access_token', 'amount', 'application/pdf', 'average', 'baidu', 'client_credentials', 'client_id', 'client_secret', 'confidence', 'error', 'extracted_at', 'file_url', 'grant_type', 'image', 'image/jpeg', 'image/jpg', 'image/png', 'jpeg', 'jpg', 'ocr_provider', 'ocr_result', 'payment_proofs', 'pdf', 'png', 'probability', 'rb', 'success', 'tencent', 'timestamp', 'transaction_id', 'uploads', 'utf-8', 'words', 'words_result', '¥\\s*(\\d+\\.?\\d*)', '实付[：:]\\s*(\\d+\\.?\\d*)', '文件上传失败，请稍后重试', '文件为空', '未选择文件', '百度OCR API密钥未配置', '腾讯云OCR API密钥未配置', '腾讯云OCR暂未实现，请使用百度OCR', '金额[：:]\\s*(\\d+\\.?\\d*)']

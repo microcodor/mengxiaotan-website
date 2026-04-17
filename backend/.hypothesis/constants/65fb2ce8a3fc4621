@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/services/refund_processor.py
+# hypothesis_version: 6.151.12
+
+['active', 'amount', 'application_id', 'applications', 'applied_at', 'approved', 'cancelled', 'created_at', 'id', 'order_id', 'order_no', 'page', 'pages', 'paid', 'pending', 'per_page', 'plan_name', 'reason', 'refund_pending', 'refunded', 'rejected', 'status', 'total', 'user_id', 'user_phone']

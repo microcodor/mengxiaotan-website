@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/push.py
+# hypothesis_version: 6.151.12
+
+[400, 403, 404, '/broadcast', '/broadcast/list', '/daily-brief', '/settings', '/test', 'active', 'admin', 'ai_suggestion', 'all', 'channel', 'completed', 'content', 'created_at', 'custom', 'custom_keywords', 'editor', 'enterprise_wechat', 'error_msg', 'failed', 'id', 'items', 'logs', 'message', 'message_type', 'pending', 'plan', 'push_channels', 'read_at', 'results', 'scheduled_at', 'sending', 'sent', 'sent_at', 'status', 'target_ids', 'target_type', 'task_id', 'text', 'title', 'url', 'user_id', 'user_ids', 'wechat_work', '今日简报尚未生成', '推送任务创建成功', '推送设置已更新', '未找到活跃订阅', '标题和内容不能为空', '测试推送', '测试推送已发送', '这是一条测试消息', '需要管理员权限']

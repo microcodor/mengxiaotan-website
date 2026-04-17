@@ -1,0 +1,4 @@
+# file: /Users/xuekaitian1/Documents/ai-project/mengxiaotan-website/backend/app/api/__init__.py
+# hypothesis_version: 6.151.12
+
+['/api/admin', '/api/articles', '/api/auth', '/api/briefs', '/api/categories', '/api/company', '/api/crawler', '/api/monitor', '/api/push', '/api/scheduler', '/api/subscriptions', '/api/users', 'AI简报相关接口', 'admin', 'articles', 'auth', 'briefs', 'categories', 'company', 'crawler', 'monitor', 'push', 'scheduler', 'subscriptions', 'users', '企业信息管理接口', '分类管理接口', '定时任务管理接口', '推送相关接口', '文章相关接口', '爬虫管理接口', '用户相关接口', '监控告警接口', '管理后台接口', '订阅相关接口', '认证相关接口']
